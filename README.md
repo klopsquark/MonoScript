@@ -10,7 +10,7 @@ In order to compile MonoScript, you will first need to compile `jay`. It should 
 
 Once `jay` has been compiled, simply open the MonoScript solution and build it.
 
-Note on VS2017
+Note on VS2017 + Windows 10:
 
 1. Install `Windows 8.1 SDK and UCRT SDK`
 2. Execute `premake5 vs2017` in repo root folder
