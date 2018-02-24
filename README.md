@@ -10,6 +10,14 @@ In order to compile MonoScript, you will first need to compile `jay`. It should 
 
 Once `jay` has been compiled, simply open the MonoScript solution and build it.
 
+Note on VS2017
+
+1. Install `Windows 8.1 SDK and UCRT SDK`
+2. Execute `premake5 vs2017` in repo root folder
+3. Open and compile `jay.sln`
+4. Open and compile `MonoScript.sln`
+5. Run demo application
+
 ## Usage
 Using MonoScript is very simple.
 
