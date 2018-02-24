@@ -12,11 +12,12 @@ Once `jay` has been compiled, simply open the MonoScript solution and build it.
 
 Note on VS2017 + Windows 10:
 
-1. Install `Windows 8.1 SDK and UCRT SDK`
-2. Execute `premake5 vs2017` in repo root folder
+1. Install `Windows 8.1 SDK and UCRT SDK` (installing only `Windows 8.1 SDK` may cause errors like: `"xyz.h": No such file or directory`
+2. Execute `premake5 vs2017` in repo root folder (it will execute the script premake5.lua by default)
 3. Open and compile `jay.sln`
 4. Open and compile `MonoScript.sln`
 5. Run demo application
+6. Happy coding...
 
 ## Usage
 Using MonoScript is very simple.
